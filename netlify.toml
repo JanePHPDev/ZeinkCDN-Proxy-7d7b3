@@ -81,3 +81,9 @@
   to = "https://use.fontawesome.com/releases/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/myfile/*"
+  to = "https://cdn.jsdelivr.net/gh/JanePHPDev/Blog-Static-Resource@main/:splat"
+  status = 200
+  force = true
